@@ -37,6 +37,56 @@ body {
 	height: 100%;
 }
 
+.book{
+    width: 100%;
+    padding: 20px;
+}
+
+/*.book:hover{
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.18);
+}*/
+.book button{
+    height: 50px;
+    margin: 15px;
+    width: 295px;
+}
+
+.item, .item.active{
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding: 20px;
+}
+.item h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 1.3px;
+}
+.item p{
+    color: #555;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-indicators > li,
+.carousel-indicators > li.active{
+    /*width: 100px;
+    height: 25px;
+    border-radius: 0;
+    border: solid 1px grey;*/
+    background: #000;
+    /*text-indent: 0;*/
+		/*color: #fff;*/
+}
+.carousel-indicators > li.active {
+    background: grey;
+}
+
 .fl_left{
 	float: left;
 }
