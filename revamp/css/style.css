@@ -18,7 +18,7 @@ body {
     bottom: 0;
     width: 100%;
 		background-color: #000;
-		height: 40px;
+		height: 70px;
 		color: #737373;
 }
 
@@ -32,10 +32,41 @@ body {
 }
 
 #landing{
-	background-image: url(../back1.jpg);
+	background-image: url(../back5.jpg);
 	width: 100%;
 	height: 100%;
 }
+
+/*#landing>background-image{
+	filter: blur(200px);
+}*/
+
+/*.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url(../back1.jpg);
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}*/
 
 .book{
     width: 100%;
@@ -873,11 +904,11 @@ h3.subheading-agileits-w3layouts {
 	margin-bottom: 20px;
 }
 
-.w3_agileits_services_grid_agile {
+/*.w3_agileits_services_grid_agile {
 	padding: 1em;
 	height: 200px;
 	overflow-y: scroll;
-}
+}*/
 
 .w3_agileits_services_grid_1 a {
 	font-size: 2.5em;
@@ -1074,9 +1105,9 @@ h3.subheading-agileits-w3layouts {
 	overflow-y: scroll;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     display: none;
-}
+}*/
 
 #style-1::-webkit-scrollbar-track,
 #style-2::-webkit-scrollbar-track {
