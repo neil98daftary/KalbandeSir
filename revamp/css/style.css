@@ -74,6 +74,18 @@ html, body {
     margin-bottom: 60px;
 }
 
+#about {
+  margin-bottom: 60px;
+}
+
+#publications {
+  margin-bottom: 60px;
+}
+
+#projects {
+  margin-bottom: 60px;
+}
+
 /*#landing>background-image{
 	filter: blur(200px);
 }*/
@@ -1025,6 +1037,11 @@ h3.subheading-agileits-w3layouts {
 }
 
 /*--//skills--*/
+
+.panel-heading a:hover {
+  color: #000;
+  text-decoration: underline;
+}
 
 /*-- Scrolling-Articles --*/
 
