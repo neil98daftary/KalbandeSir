@@ -14,15 +14,16 @@ html, body {
 }
 
 #about-me-snap{
-    margin-top: 50px;
+    margin-top: 30px;
+    padding-right: 50px;
 }
 .info_me h2{
     border-top:2px solid #ecf0f2;
     border-bottom:2px solid #ecf0f2;
-    padding: 20px 0px;
-    line-height: 65px;
+    padding: 10px 0px;
+    line-height: 55px;
     margin-bottom: 10px;
-    font-size: 60px;
+    font-size: 35px;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -39,10 +40,10 @@ html, body {
 .overlay{
     background-color: rgba(0,0,0,0.7);
     width: 100%;
-    min-height: 500px;
+    min-height: 325px;
     height: inherit !important;
     margin: 0;
-    padding: 0;
+    padding-top: 40px;
 }
 #footer {
   width: 100%;
@@ -57,18 +58,18 @@ html, body {
 
 #profile_img {
   border-radius: 50%;
-  margin-bottom: 50px;
-  width: 300px;
-  height: 400px;
-  margin-top: 50px;
+/*  margin-bottom: 50px;*/
+  width: 130px;
+  height: 240px;
+/*  margin-top: 50px;*/
 }
 
 #landing {
     background: url(../blue-technical-background-design_1344-42.jpg) no-repeat center top fixed;
     background-size: cover;
     width: 100%;
-    height: inherit;    
-    min-height: 500px;
+    height: inherit;
+    min-height: 325px;
 /*    height: 100%;*/
     background-position: center;
     margin-bottom: 60px;
@@ -243,11 +244,12 @@ label {
 }*/
 
 .vertical-align {
-  display: flex;
+    display: block;
   align-items: center;
 /*    height: inherit;*/
 /*    margin: 0;*/
-/*    padding: 0;*/
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 @media (max-width: 767px) {
@@ -506,9 +508,9 @@ nav.shift ul li a.active:after, nav.shift ul li a:hover:after {
 /*-- //banner --*/
 
 .img_me img {
-  height: 70%;
-  width: 70%;
-  margin-top: 15%;
+/*  height: 70%;*/
+/*  width: 70%;*/
+/*  margin-top: 15%;*/
   margin-left: auto;
   margin-right: auto;
   display: block
@@ -526,6 +528,7 @@ nav.shift ul li a.active:after, nav.shift ul li a:hover:after {
   /*line-height: 150%;
 	margin-left: auto;
 	margin-right: auto;*/
+    word-spacing: 10px;
 }
 
 .info_me {
@@ -652,6 +655,7 @@ h5.title-w3 span {
   color: #777;
   letter-spacing: .8px;
   line-height: 30px;
+  padding: 10px;
 }
 
 .red-w3ls {
@@ -1431,8 +1435,8 @@ h3.subheading-agileits-w3layouts {
 }
 
 #toTopHover {
-  width: 64px;
-  height: 64px;
+  width: 30px;
+  height: 30px;
   display: block;
   overflow: hidden;
   float: right;
@@ -1453,7 +1457,7 @@ h3.subheading-agileits-w3layouts {
 
 @media(max-width:1366px) {
   .banner {
-    min-height: 650px;
+    min-height: 325px;
   }
   .banner-text-w3-agileits {
     margin-top: 11.5em;
