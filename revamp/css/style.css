@@ -39,7 +39,7 @@ html, body {
 .overlay{
     background-color: rgba(0,0,0,0.7);
     width: 100%;
-    min-height: 650px;
+    min-height: 500px;
     height: inherit !important;
     margin: 0;
     padding: 0;
@@ -68,7 +68,7 @@ html, body {
     background-size: cover;
     width: 100%;
     height: inherit;    
-    min-height: 650px;
+    min-height: 500px;
 /*    height: 100%;*/
     background-position: center;
     margin-bottom: 60px;
@@ -2110,4 +2110,106 @@ div.tab button.active {
 
 .tabcontent h3 {
   padding: 10px 0px;
+}
+
+div.tabN {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+/* Style the buttons inside the tabN */
+div.tabN button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tabN button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tabN button" class */
+div.tabN button.active {
+    background-color: #ccc;
+}
+
+/* Style the tabN content */
+.tabNcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.tabNcontent h3 {
+  padding: 10px 0px;
+}
+/*########################----INTERNATIONAL------###############*/
+div.tabI {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+/* Style the buttons inside the tab */
+div.tabI button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tabI button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+div.tabI button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content*/
+.tabcontentI {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.tabcontentI h3 {
+  padding: 10px 0px;
+}
+
+#collapse3 div.panel-body h2{
+    padding: 20px;
 }
