@@ -25864,6 +25864,7 @@ Floated Menu / Item
 .ui.card > .content > .meta + .description,
 .ui.card > .content > .header + .description {
   margin-top: 0.5em;
+  text-align: justify;
 }
 
 /*----------------

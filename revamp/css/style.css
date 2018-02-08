@@ -15,17 +15,26 @@ html, body {
 
 #about-me-snap{
     margin-top: 30px;
-    padding-right: 50px;
+  /*  padding-right: 50px */;
 }
 .info_me h2{
-    border-top:2px solid #ecf0f2;
-    border-bottom:2px solid #ecf0f2;
+    /* border-top:2px solid #ecf0f2;
+    border-bottom:2px solid #ecf0f2;*/
     padding: 10px 0px;
     line-height: 55px;
     margin-bottom: 10px;
     font-size: 35px;
     font-weight: 500;
     text-transform: capitalize;
+}
+
+hr {
+  height: 1.5px;
+  background-color: #fff;
+}
+
+.container-name {
+  width: 90%;
 }
 
 .fl_right>a{
@@ -533,6 +542,8 @@ nav.shift ul li a.active:after, nav.shift ul li a:hover:after {
 
 .info_me {
   text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
   /*vertical-align: middle;*/
   /*height: 536px;*/
 }
@@ -1045,6 +1056,23 @@ h3.subheading-agileits-w3layouts {
 .panel-heading a:hover {
   color: #000;
   text-decoration: underline;
+}
+
+.head1 {
+  background-color: #00e072 !important;
+}
+
+.head1>a:hover {
+  color: #000;
+}
+
+.head2 {
+  background-color: #009c4f !important;
+  color: #f6f6f6 !important;
+}
+
+.head2 a:hover {
+  color: #fff !important;
 }
 
 /*-- Scrolling-Articles --*/
