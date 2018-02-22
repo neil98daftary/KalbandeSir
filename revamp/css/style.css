@@ -889,16 +889,20 @@ h3.subheading-agileits-w3layouts {
 .w3_agileits_services_grid {
   text-align: center;
   padding: 0;
-  width: 49%;
+  /*width: 49%;*/
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.18);
 }
 
 .w3_agileits_services_grid:nth-child(1), .w3_agileits_services_grid:nth-child(3), .w3_agileits_services_grid:nth-child(5) {
-  margin-right: 2%;
+  /*margin-right: 2%;*/
+}
+
+.w3_agileits_services_grid:nth-child(1), .w3_agileits_services_grid:nth-child(2), .w3_agileits_services_grid:nth-child(3), .w3_agileits_services_grid:nth-child(4), .w3_agileits_services_grid:nth-child(5), .w3_agileits_services_grid:nth-child(6) {
+  margin-bottom: 1em;
 }
 
 .w3_agileits_services_grid:nth-child(1), .w3_agileits_services_grid:nth-child(2), .w3_agileits_services_grid:nth-child(4) {
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
 /*.w3_agileits_services_grid_agile {
@@ -1055,7 +1059,7 @@ h3.subheading-agileits-w3layouts {
 
 .handcursor {
   cursor: pointer !important;
-} 
+}
 
 .panel-heading a:hover {
   color: #000;
@@ -1147,7 +1151,53 @@ h3.subheading-agileits-w3layouts {
   -o-background-size: cover;
   -ms-background-size: cover;
   background-size: cover;
-  min-height: 444px;
+  min-height: 222px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #00DF75;
+}
+
+.edu-img-agileits1 {
+  background: url(../awards1.jpg)no-repeat 0px 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  min-height: 222px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #00DF75;
+}
+
+.edu-img-agileits2 {
+  background: url(../awards2.jpg)no-repeat 0px 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  min-height: 222px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #00DF75;
+}
+
+.edu-img-agileits3 {
+  background: url(../awards3.jpg)no-repeat 0px 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  min-height: 222px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #00DF75;
 }
 
 .exp-img-agileits {
@@ -1930,7 +1980,7 @@ h3.subheading-agileits-w3layouts {
   .display-grid-1-w3lsagile {
     padding: 3em 1em;
   }
-  .w3_agileits_services_grid:nth-child(1), .w3_agileits_services_grid:nth-child(2), .w3_agileits_services_grid:nth-child(3) {
+  .w3_agileits_services_grid:nth-child(1), .w3_agileits_services_grid:nth-child(2), .w3_agileits_services_grid:nth-child(3), .w3_agileits_services_grid:nth-child(4), .w3_agileits_services_grid:nth-child(5), .w3_agileits_services_grid:nth-child(6) {
     margin-bottom: 1em;
   }
   .w3_agileits_services_grid {
